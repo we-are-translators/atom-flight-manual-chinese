@@ -60,3 +60,5 @@ C:\> apm config set strict-ssl false
 ```
 C:\> apm config set https-proxy YOUR_PROXY_ADDRESS
 ```
+
+你可以运行 `apm config get https-proxy` 来验证它是否设置正确。

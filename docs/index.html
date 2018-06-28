@@ -12,9 +12,9 @@
 <body>
   <div id="app" data-app>正在努力加载中...</div>
   <script>
-    // if (typeof navigator.serviceWorker !== 'undefined') {
-    //   navigator.serviceWorker.register('sw.js')
-    // }
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
   </script>
   <script>
     window.$docsify = {
@@ -24,7 +24,6 @@
       mergeNavbar: true,
       auto2top: true,
       alias: {
-        '/.*/_sidebar.md': platform.os.family.toLocaleLowerCase() + '/_sidebar.md',
         '/.*/_navbar.md': '/_navbar.md'
       },
       subMaxLevel: 3,
@@ -41,6 +40,9 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html, next) {
+            
+            vm.config.alias['/.*/_sidebar.md'] = vm.route.path.match(/\/([a-z]*)\//)[1] + '/_sidebar.md'
+
             var url = 'https://github.com/cntanglijun/atom-flight-manual-chinese/blob/master/docs/' + vm.route.file
             var editHtml = '<div style="text-align:right">[:memo: 完善文档](' + url + ')</div>\n'
 

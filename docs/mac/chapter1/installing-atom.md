@@ -4,19 +4,27 @@
 
 安装 Atom 非常简单。通常情况下，你可以到 [https://atom.io](https://atom.io) ，在页面顶部你会看到一个想下面这样的下载按钮：
 
-![https://flight-manual.atom.io/getting-started/images/windows-downloads.png](https://flight-manual.atom.io/getting-started/images/windows-downloads.png)
+![Download buttons on https://atom.io](https://flight-manual.atom.io/getting-started/images/mac-downloads.png)
 
 这个按钮或这些按钮对应下载的安装包是针对你的平台的，下载安装包也是易于安装的。不过，还是让我们在这里详细的回顾一下它们吧。
 
-## Windows 上安装 Atom
+## Mac 上安装 Atom
 
-Atom 支持 Windows installer 安装，可以从 [https://atom.io](https://atom.io) 下载或者从 [Atom releases page](https://github.com/atom/atom/releases/tag/v1.28.0) 下载名叫 `AtomSetup.exe` 的包。安装程序将安装 Atom，并添加 `atom` 和 `apm` 命令到 `PATH`，然后在桌面创建和开始菜单里添加快捷方式。
+Atom 遵循标准的 Mac zip 安装过程。你可以在 [https://atom.io](https://atom.io) 站点点击下载按钮或者你可以到 [Atom releases page](https://github.com/atom/atom/releases/latest) 下载 `atom-mac.zip` 文件。一旦你有了安装文件，你可以点击它解压应用程序，然后把新安装的 Atom 应用程序拖到 "Applications" 文件夹。
 
-![https://flight-manual.atom.io/getting-started/images/windows-system-settings.png](https://flight-manual.atom.io/getting-started/images/windows-system-settings.png)
+当你首次打开 Atom，它将试着安装 `atom` 和 `apm` 命令以便在终端使用。在一些情况下，Atom 可能无法安装这些命令，因为它需要管理员密码。要检查 Atom 是否能够安装 `atom` 命令，比如你可以打开一个终端窗口并输入 `which atom`，如果 `atom` 命令已经安装，你将看到如下的信息：
 
-在 File Explorer 中上下文菜单 `Open with Atom` ，使 Atom 能用 `Open with...` 做文件关联，通过上面所示的 System Settings 面板控制。
+```bash
+which atom
+/usr/local/bin/atom
+```
 
-Atom 启动后，点击 `File > Settings`，然后在左侧你会看到 `System` 标签栏，勾选 `Show in file context menus` 以及 `Show in folder context menus` 前面的复选框，这样你就完成了所有设置。
+如果 `atom` 命令没有安装，`which` 命令不会返回任何信息：
+
+```bash
+which atom
+```
+要安装 `atom` 和 `apm` 命令，从 [命令调色板](/mac/chapter1/atom-basics?id=命令调色板) 运行 "Window: Install Shell Commands"，它将提示你输入管理员密码。
 
 ## 便携模式
 
@@ -24,11 +32,11 @@ Atom 存储配置和状态在 `.atom` 目录中，这个目录通常位于你的
 
 要用便携模式安装 Atom ，下载 [zip/tar.gz package for your system](https://github.com/atom/atom/releases/tag/v1.28.0) 并加压到你的移动存储设备中。
 
-然后创建一个与含有 atom.exe 目录同级的 `.atom` 目录，举个例子：
+然后创建一个与含有 `Atom.app` 目录同级的 `.atom` 目录，举个例子：
 
 ```
-e:\atom-1.14\atom.exe
-e:\.atom
+/MyUSB/Atom.app
+/MyUSB/.atom
 ```
 
 ### 便携模式注意点

@@ -4,19 +4,92 @@
 
 安装 Atom 非常简单。通常情况下，你可以到 [https://atom.io](https://atom.io) ，在页面顶部你会看到一个想下面这样的下载按钮：
 
-![https://flight-manual.atom.io/getting-started/images/windows-downloads.png](https://flight-manual.atom.io/getting-started/images/windows-downloads.png)
+![Download buttons on https://atom.io](https://flight-manual.atom.io/getting-started/images/linux-downloads.png)
 
 这个按钮或这些按钮对应下载的安装包是针对你的平台的，下载安装包也是易于安装的。不过，还是让我们在这里详细的回顾一下它们吧。
 
-## Windows 上安装 Atom
+## Linux 上安装 Atom
 
-Atom 支持 Windows installer 安装，可以从 [https://atom.io](https://atom.io) 下载或者从 [Atom releases page](https://github.com/atom/atom/releases/tag/v1.28.0) 下载名叫 `AtomSetup.exe` 的包。安装程序将安装 Atom，并添加 `atom` 和 `apm` 命令到 `PATH`，然后在桌面创建和开始菜单里添加快捷方式。
+在 Linux 系统上安装 Atom，你可以设置你的分布式包管理器，让它使用我们的其中一个官方安装包仓库。这也可以使你当新版本发布时能更新 Atom。
 
-![https://flight-manual.atom.io/getting-started/images/windows-system-settings.png](https://flight-manual.atom.io/getting-started/images/windows-system-settings.png)
+### Debian 和 Ubuntu (deb/apt)
 
-在 File Explorer 中上下文菜单 `Open with Atom` ，使 Atom 能用 `Open with...` 做文件关联，通过上面所示的 System Settings 面板控制。
+要在 Debian，Ubuntu，或相关的发行版上安装 Atom，运行下面的命令添加我们的官方安装包仓库到你的系统：
 
-Atom 启动后，点击 `File > Settings`，然后在左侧你会看到 `System` 标签栏，勾选 `Show in file context menus` 以及 `Show in folder context menus` 前面的复选框，这样你就完成了所有设置。
+```bash
+curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+sudo apt-get update
+```
+
+你现在可以用 apt-get（或在 Ubuntu 上用 apt）安装 Atom：
+
+```bash
+# Install Atom
+sudo apt-get install atom
+# Install Atom Beta
+sudo apt-get install atom-beta
+```
+
+或者，你可以直接下载 [`Atom.deb package`](https://atom.io/download/deb) 安装：
+
+```bash
+# Install Atom
+sudo dpkg -i atom-amd64.deb
+# Install Atom's dependencies if they are missing
+sudo apt-get -f install
+```
+
+### Red Hat 和 CentOS (YUM), 或 Fedora (DNF)
+
+要在 CentOS，Oracle Linux，Red Hat Enterprise Linux，Scientific Linux，Fedora，或者使用 YUM 或 DNF 包管理器的相关发行版上安装 Atom，运行下面的命令添加我们的官方安装包仓库到你的系统：
+
+```bash
+sudo rpm --import https://packagecloud.io/AtomEditor/atom/gpgkey
+sudo sh -c 'echo -e "[Atom]\nname=Atom Editor\nbaseurl=https://packagecloud.io/AtomEditor/atom/el/7/\$basearch\nenabled=1\ngpgcheck=0\nrepo_gpgcheck=1\ngpgkey=https://packagecloud.io/AtomEditor/atom/gpgkey" > /etc/yum.repos.d/atom.repo'
+```
+
+你现在可以用 dnf 安装 Atom（或根据你的发行版用 yum）
+
+```bash
+# Install Atom
+sudo dnf install atom
+# Install Atom Beta
+sudo dnf install atom-beta
+```
+
+或者你可以直接下载 [`Atom.rpm package`](https://atom.io/download/rpm) 安装 Atom：
+
+```bash
+# On YUM-based distributions
+sudo yum install -y atom.x86_64.rpm
+# On DNF-based distributions
+sudo dnf install -y atom.x86_64.rpm
+```
+
+### SUSE (zypp)
+
+要在 openSUSE 或使用 Zypp 包管理器的相关发行版上安装 Atom，运行下面的命令添加我们的官方安装包仓库到你的系统：
+
+```bash
+sudo sh -c 'echo -e "[Atom]\nname=Atom Editor\nbaseurl=https://packagecloud.io/AtomEditor/atom/el/7/\$basearch\nenabled=1\ntype=rpm-md\ngpgcheck=0\nrepo_gpgcheck=1\ngpgkey=https://packagecloud.io/AtomEditor/atom/gpgkey" > /etc/zypp/repos.d/atom.repo'
+sudo zypper --gpg-auto-import-keys refresh
+```
+
+你现在可以用 `zypper` 安装 Atom：
+
+```bash
+# Install Atom
+sudo zypper install atom
+# Install Atom Beta
+sudo zypper install atom-beta
+```
+
+或者你可以直接下载 [`Atom.rpm package`](https://atom.io/download/rpm) 安装 Atom：
+
+```bash
+sudo zypper in -y atom.x86_64.rpm
+```
 
 ## 便携模式
 
@@ -24,11 +97,11 @@ Atom 存储配置和状态在 `.atom` 目录中，这个目录通常位于你的
 
 要用便携模式安装 Atom ，下载 [zip/tar.gz package for your system](https://github.com/atom/atom/releases/tag/v1.28.0) 并加压到你的移动存储设备中。
 
-然后创建一个与含有 atom.exe 目录同级的 `.atom` 目录，举个例子：
+然后创建一个与含有 Atom 二进制文件的目录同级的 `.atom` 目录，举个例子：
 
 ```
-e:\atom-1.14\atom.exe
-e:\.atom
+/media/myusb/atom-1.14/atom
+/media/myusb/.atom
 ```
 
 ### 便携模式注意点
@@ -60,3 +133,5 @@ C:\> apm config set strict-ssl false
 ```
 C:\> apm config set https-proxy YOUR_PROXY_ADDRESS
 ```
+
+你可以运行 `apm config get https-proxy` 来验证它是否设置正确。
