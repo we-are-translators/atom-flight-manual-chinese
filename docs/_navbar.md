@@ -1,0 +1,4 @@
+- 选择平台
+  - [windows](windows/)
+  - [mac](mac/)
+  - [linux](linux/)

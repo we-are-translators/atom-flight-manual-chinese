@@ -7,20 +7,25 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <script src="https://cdn.bootcss.com/platform/1.3.5/platform.min.js"></script>
 </head>
 <body>
   <div id="app" data-app>正在努力加载中...</div>
-  <!-- <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
-  </script> -->
+  <script>
+    // if (typeof navigator.serviceWorker !== 'undefined') {
+    //   navigator.serviceWorker.register('sw.js')
+    // }
+  </script>
   <script>
     window.$docsify = {
       name: '[译] Atom 飞行手册',
       loadSidebar: true,
+      loadNavbar: true,
+      mergeNavbar: true,
+      auto2top: true,
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+        '/.*/_sidebar.md': platform.os.family.toLocaleLowerCase() + '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md'
       },
       subMaxLevel: 3,
       search: {
@@ -35,10 +40,18 @@
       themeColor: '#aa00ff',
       plugins: [
         function (hook, vm) {
-          hook.beforeEach(function (html) {
+          hook.beforeEach(function (html, next) {
+            var url = 'https://github.com/cntanglijun/atom-flight-manual-chinese/blob/master/docs/' + vm.route.file
+            var editHtml = '<div style="text-align:right">[:memo: 完善文档](' + url + ')</div>\n'
+
             html += '\n---\n'
-            html += '{docsify-updated} '
-            return html
+            html += '{docsify-updated}'
+
+            next(editHtml + html)
+          })
+
+          hook.mounted(function () {
+            location.replace('#' + (vm.route.path === '/' ? '/' + platform.os.family.toLocaleLowerCase() + '/' : vm.route.path))
           })
         }
       ]

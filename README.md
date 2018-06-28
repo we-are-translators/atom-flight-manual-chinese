@@ -2,13 +2,15 @@
 
 翻译 Atom 飞行手册中文版，原文地址 [`https://flight-manual.atom.io/`](https://flight-manual.atom.io/)
 
+在线阅读：[https://tanglj.cn/atom-flight-manual-chinese](https://tanglj.cn/atom-flight-manual-chinese)
+
 ## 翻译进度
 
 * [x] Chapter 1: Getting Started
   * [x] Why Atom?
   * [x] Installing Atom
   * [ ] Atom Basics
-  * [ ] Summary
+  * [x] Summary
 * Chapter 2: Using Atom
   * [ ] Atom Packages
   * [ ] Moving in Atom
@@ -69,9 +71,9 @@
 ## 参与贡献
 
 1. Fork 本仓库
-2. git clone git@github.com:<your-github-username>/atom-flight-manual-chinese.git
-3. git checkout -b <your-branch-name>
-4. git push origin <your-branch-name>
+2. `git clone git@github.com:<your-github-username>/atom-flight-manual-chinese.git`
+3. `git checkout -b <your-branch-name>`
+4. `git push origin <your-branch-name>`
 5. 创建一个 Pull Request
 
 ## 徽章
