@@ -2,3 +2,5 @@
   - [为什么选择 Atom](chapter1/why-atom)
   - [安装 Atom](chapter1/installing-atom)
   - [Atom 基础知识](chapter1/atom-basics)
+- [章节 2：使用Atom](chapter2/using-atom)
+  - [atom 包](chapter2/packages-atom)
