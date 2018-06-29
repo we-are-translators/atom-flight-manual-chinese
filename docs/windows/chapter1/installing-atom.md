@@ -31,7 +31,7 @@ e:\atom-1.14\atom.exe
 e:\.atom
 ```
 
-### 编写模式注意点
+### 便携模式注意点
 
 * `.atom` 目录必须是可写的
 * 你可以赋值一个现有的 `.atom` 目录到你的便携设备
@@ -47,8 +47,6 @@ e:\.atom
 
 ### 在防火墙后面？
 
-If you are behind a firewall and seeing SSL errors when installing packages you can disable strict SSL by running:
-
 如果你处在防火墙后面而且在安装包文件时遇到 SSL 错误，你可以禁用 strict SSL，运行如下代码：
 
 ```
@@ -57,10 +55,10 @@ C:\> apm config set strict-ssl false
 
 ### 使用代理？
 
-If you are using a HTTP(S) proxy you can configure apm to use it by running:
-
 如果你使用 HTTP(S) 代理你可以通过运行下面的代码设置 apm：
 
 ```
 C:\> apm config set https-proxy YOUR_PROXY_ADDRESS
 ```
+
+你可以运行 `apm config get https-proxy` 来验证它是否设置正确。
