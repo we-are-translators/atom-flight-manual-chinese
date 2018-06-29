@@ -3,3 +3,5 @@
   - [安装 Atom](windows/chapter1/installing-atom)
   - [Atom 基础知识](windows/chapter1/atom-basics)
   - [小结](windows/chapter1/summary)
+- [章节 2：使用Atom](windows/chapter2/using-atom)
+  - [atom 包](windows/chapter2/packages-atom)

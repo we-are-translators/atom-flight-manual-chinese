@@ -4,7 +4,7 @@
   * [ ] Atom Basics
   * [x] Summary
 * Chapter 2: Using Atom
-  * [ ] Atom Packages
+  * [x] Atom Packages
   * [ ] Moving in Atom
   * [ ] Atom Selections
   * [ ] Editing and Deleting Text
