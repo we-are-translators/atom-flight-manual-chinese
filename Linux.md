@@ -1,7 +1,7 @@
 * [x] Chapter 1: Getting Started
   * [x] Why Atom?
   * [x] Installing Atom
-  * [ ] Atom Basics
+  * [x] Atom Basics
   * [x] Summary
 * Chapter 2: Using Atom
   * [x] Atom Packages

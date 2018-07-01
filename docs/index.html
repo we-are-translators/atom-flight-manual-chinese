@@ -57,10 +57,14 @@
           })
 
           hook.mounted(function () {
+            var searchParams = location.hash.match(/(\?[^\?]*)/)
+
+            searchParams = searchParams ? searchParams[1] : ''
+
             if (device.type === 'desktop') {
-              location.replace('#' + (vm.route.path === '/' ? '/' + platform.os.family.toLocaleLowerCase() + '/' : vm.route.path))
+              location.replace('#' + (vm.route.path === '/' ? '/' + platform.os.family.toLocaleLowerCase() + '/' : vm.route.path + searchParams))
             } else {
-              location.replace('#' + (vm.route.path === '/' ? '/windows/' : vm.route.path))
+              location.replace('#' + (vm.route.path === '/' ? '/windows/' : vm.route.path + searchParams))
             }
           })
         }
