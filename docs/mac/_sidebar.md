@@ -5,4 +5,5 @@
   - [小结](mac/chapter1/summary)
 - [章节 2：使用 Atom](mac/chapter2/using-atom)
   - [atom 包](mac/chapter2/packages-atom)
+  - [进入 Atom](mac/chapter2/moving-atom)
 
