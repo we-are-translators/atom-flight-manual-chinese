@@ -58,6 +58,8 @@ editor:select-to-previous-word-boundary
 
 您可以使用[ctags实用程序](https://ctags.io/)生成`标签`文件。安装完成后，可以通过运行命令生成标签文件来生成`标签`文件。有关详细信息，请参阅[ctags文档](https://docs.ctags.io/en/latest/)。
 
+生成标记文件后，可以使用它按`Ctrl + Shift + R`在项目中搜索符号。
+
 您可以通过在主目录`％USERPROFILE％\ .ctags`中创建自己的`.ctags`文件来定制如何生成标签。一个例子可以在[这里](https://github.com/atom/symbols-view/blob/master/lib/ctags-config)找到。
 
 符号导航功能在[符号视图](https://github.com/atom/symbols-view)包中实现。
