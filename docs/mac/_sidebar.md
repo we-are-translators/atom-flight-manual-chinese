@@ -3,6 +3,7 @@
   - [安装 Atom](mac/chapter1/installing-atom)
   - [Atom 基础知识](mac/chapter1/atom-basics)
   - [小结](mac/chapter1/summary)
-- [章节 2：使用Atom](mac/chapter2/using-atom)
+- [章节 2：使用 Atom](mac/chapter2/using-atom)
   - [atom 包](mac/chapter2/packages-atom)
+  - [进入 Atom](mac/chapter2/moving-atom)
 
