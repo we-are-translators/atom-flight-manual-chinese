@@ -4,5 +4,5 @@
   - [Atom 基础知识](linux/chapter1/atom-basics)
   - [小结](linux/chapter1/summary)
 - [章节 2：使用 Atom](linux/chapter2/using-atom)
-  - [atom 包](linux/chapter2/packages-atom)
-  - [进入 Atom](linux/chapter2/moving-atom)
+  - [Atom 包](linux/chapter2/atom-packages)
+  - [Atom 中的移动](linux/chapter2/moving-in-atom)

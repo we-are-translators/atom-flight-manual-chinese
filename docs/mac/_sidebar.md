@@ -4,6 +4,5 @@
   - [Atom 基础知识](mac/chapter1/atom-basics)
   - [小结](mac/chapter1/summary)
 - [章节 2：使用 Atom](mac/chapter2/using-atom)
-  - [atom 包](mac/chapter2/packages-atom)
-  - [进入 Atom](mac/chapter2/moving-atom)
-
+  - [Atom 包](mac/chapter2/atom-packages)
+  - [Atom 中的移动](mac/chapter2/moving-in-atom)

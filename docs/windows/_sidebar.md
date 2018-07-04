@@ -4,5 +4,5 @@
   - [Atom 基础知识](windows/chapter1/atom-basics)
   - [小结](windows/chapter1/summary)
 - [章节 2：使用 Atom](windows/chapter2/using-atom)
-  - [Atom 包](windows/chapter2/packages-atom)
-  - [进入 Atom](windows/chapter2/moving-atom)
+  - [Atom 包](windows/chapter2/atom-packages)
+  - [Atom 中的移动](windows/chapter2/moving-in-atom)
