@@ -5,7 +5,7 @@
   * [x] Summary
 * Chapter 2: Using Atom
   * [x] Atom Packages
-  * [ ] Moving in Atom
+  * [x] Moving in Atom
   * [ ] Atom Selections
   * [ ] Editing and Deleting Text
   * [ ] Find and Replace

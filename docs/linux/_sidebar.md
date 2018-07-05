@@ -6,3 +6,4 @@
 - [章节 2：使用 Atom](linux/chapter2/using-atom)
   - [Atom 包](linux/chapter2/atom-packages)
   - [Atom 中的移动](linux/chapter2/moving-in-atom)
+  - [编辑和删除文本](linux/chapter2/editing-and-deleting-text)
