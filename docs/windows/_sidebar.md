@@ -6,3 +6,4 @@
 - [章节 2：使用 Atom](windows/chapter2/using-atom)
   - [Atom 包](windows/chapter2/atom-packages)
   - [Atom 中的移动](windows/chapter2/moving-in-atom)
+  - [编辑和删除文本](windows/chapter2/editing-and-deleting-text)

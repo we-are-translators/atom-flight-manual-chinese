@@ -7,7 +7,7 @@
   * [x] Atom Packages
   * [x] Moving in Atom
   * [ ] Atom Selections
-  * [ ] Editing and Deleting Text
+  * [x] Editing and Deleting Text
   * [ ] Find and Replace
   * [ ] Snippets
   * [ ] Autocomplete

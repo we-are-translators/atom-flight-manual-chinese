@@ -6,30 +6,35 @@
 
 对于基本的文本操作可能会用到一些酷炫的快捷绑定。这些包括整行文本移动和复制行以及改变大小写。
 
-* <kbd>Ctrl+J</kbd> - 连接下一行到当前行的末尾
-* <kbd>Ctrl+Up/Down</kbd> - 向上或向下移动当前行
-* <kbd>Ctrl+Shift+D</kbd> - 复制当前行
-* <kbd>Ctrl+K</kbd> <kbd>Ctrl+U</kbd> 使当前单词大写
-* <kbd>Ctrl+K</kbd> <kbd>Ctrl+L</kbd> 使当前单词小写
+* <kbd>Cmd+J</kbd> - 连接下一行到当前行的末尾
+* <kbd>Cmd+Ctrl+Up/Down</kbd> - 向上或向下移动当前行
+* <kbd>Cmd+Shift+D</kbd> - 复制当前行
+* <kbd>Cmd+K</kbd> <kbd>Cmd+U</kbd> 使当前单词大写
+* <kbd>Cmd+K</kbd> <kbd>Cmd+L</kbd> 使当前单词小写
+* <kbd>Ctrl+T</kbd> 转换字符。交换光标两边的两个字符的位置
 
-Atom 也有内置方法可以在给定的最大行字符数的位置，强制换行并重新排版。你可以用 <kbd>Alt+Ctrl+Q</kbd> 格式化当前选中行，使它每行不超过 80 个字符（或者 `editor.preferredLineLength` 中设置的任意数字）。如果没有选中的内容，那么将重新排版当前段落。
+Atom 也有内置方法可以在给定的最大行字符数的位置，强制换行并重新排版。你可以用 <kbd>Alt+Cmd+Q</kbd> 格式化当前选中行，使它每行不超过 80 个字符（或者 `editor.preferredLineLength` 中设置的任意数字）。如果没有选中的内容，那么将重新排版当前段落。
 
 ## 删除和剪切
 
 你也可以用一些快捷键在缓冲区外删除或剪切文本。无须手下留情。
 
 * <kbd>Ctrl+Shift+K</kbd> - 删除当前行
-* <kbd>Ctrl+Backspace</kbd> - 删除到单词的起始位置
-* <kbd>Ctrl+Delete</kbd> - 删除到单词的结束位置
+* <kbd>Alt+Backspace</kbd> 或 <kbd>Alt+H</kbd> - 删除到单词的起始位置
+* <kbd>Alt+Delete</kbd> 或 <kbd>Alt+D</kbd> - 删除到单词的结束位置
+* <kbd>Cmd+Delete</kbd> - 删除到行的结束位置
+* <kbd>Ctrl+K</kbd> - 剪切到行的结束位置
+* <kbd>Cmd+Backspace</kbd> - 删除到行的起始位置
 
 ## 多重光标和多重选取
 
 Atom 可以做一件不拘一格而且非常酷炫的事，那就是支持多重光标。这在操作长文本列表中是极其有用的。
 
-* <kbd>Ctrl+Click</kbd> - 在点击的位置添加一个新光标
-* <kbd>Alt+Shift+Up/Down</kbd> - 在当前光标上面/下面添加另一个光标
-* <kbd>Ctrl+D</kbd> - 选中文档中与当前选中单词一样的下一个单词
-* <kbd>Alt+F3</kbd> - 选中文档中与当前选中单词一样的所有单词
+* <kbd>Cmd+Click</kbd> - 在点击的位置添加一个新光标
+* <kbd>Ctrl+Shift+Up/Down</kbd> - 在当前光标上面/下面添加另一个光标
+* <kbd>Cmd+D</kbd> - 选中文档中与当前选中单词一样的下一个单词
+* <kbd>Cmd+Ctrl+G</kbd> - 选中文档中与当前选中单词一样的所有单词
+* <kbd>Cmd+Shift+L</kbd> - 转换多行选中区域为多行光标
 
 使用这些命令，你可以在文档中的多个位置放置光标并一次性在多个地方有效地执行相同的命令。
 
@@ -62,8 +67,8 @@ Atom 有智能并且简单的括号处理方式。
 还有一些其它关于括号的有趣命令可供你使用。
 
 * <kbd>Ctrl+M</kbd> - 把光标跳转到相邻的配对括号位置。当没有相邻的括号时，则跳转到最近的闭合括号位置
-* <kbd>Alt+Ctrl+,</kbd> - 选中当前括号中的所有文本
-* <kbd>Alt+Ctrl+.</kbd> - 关闭当前 XML/HTML 标签
+* <kbd>Cmd+Ctrl+M</kbd> - 选中当前括号中的所有文本
+* <kbd>Alt+Cmd+.</kbd> - 关闭当前 XML/HTML 标签
 
 括号功能在 [bracket-matcher](https://github.com/atom/bracket-matcher) 包中实现。类似所有这些包，要更改默认相关的括号处理方式，或者要整个禁用它，你可以在设置界面里定位到这个包。
 
@@ -71,7 +76,7 @@ Atom 有智能并且简单的括号处理方式。
 
 Atom 也自带一些基本的文件编码，可能你发现你在非 UTF-8 编码的文件里工作，或者你希望创建一个 UTF-8 编码的文件。
 
-* <kbd>Alt+U</kbd> - 切换菜单来更改文件编码
+* <kbd>Ctrl+Shift+U</kbd> - 切换菜单来更改文件编码
 
 如果你停留在文件编码对话框，你可以选择一个其它的文件编码格式来保存你的文件。
 

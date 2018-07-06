@@ -6,3 +6,4 @@
 - [章节 2：使用 Atom](mac/chapter2/using-atom)
   - [Atom 包](mac/chapter2/atom-packages)
   - [Atom 中的移动](mac/chapter2/moving-in-atom)
+  - [编辑和删除文本](mac/chapter2/editing-and-deleting-text)
