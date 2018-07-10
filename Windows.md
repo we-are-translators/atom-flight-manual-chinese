@@ -49,7 +49,7 @@
   * [ ] How Atom Uses Chromium Snapshots
   * [ ] Summary
 * Appendix A: Resources
-  * [ ] Glossary
+  * [x] Glossary
 * Appendix B: Shadow DOM
   * [ ] Removing Shadow DOM styles
 * Appendix C: Upgrading to 1.0 APIs
