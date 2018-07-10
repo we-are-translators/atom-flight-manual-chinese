@@ -8,7 +8,7 @@
   * [x] Moving in Atom
   * [ ] Atom Selections
   * [x] Editing and Deleting Text
-  * [ ] Find and Replace
+  * [X] Find and Replace
   * [ ] Snippets
   * [ ] Autocomplete
   * [ ] Folding
