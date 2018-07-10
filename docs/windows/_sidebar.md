@@ -7,3 +7,4 @@
   - [Atom 包](windows/chapter2/atom-packages)
   - [Atom 中的移动](windows/chapter2/moving-in-atom)
   - [编辑和删除文本](windows/chapter2/editing-and-deleting-text)
+  - [查找和替换](windows/chapter2/find-and-replace)
