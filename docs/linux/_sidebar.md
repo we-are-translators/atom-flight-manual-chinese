@@ -8,5 +8,6 @@
   - [Atom 中的移动](linux/chapter2/moving-in-atom)
   - [编辑和删除文本](linux/chapter2/editing-and-deleting-text)
   - [查找和替换](linux/chapter2/find-and-replace)
+- [章节 3：定制 Atom](linux/chapter3/hacking-atom)
 - [附录 A：资源](linux/appendixa/resources)
   - [词汇表](linux/appendixa/glossary)

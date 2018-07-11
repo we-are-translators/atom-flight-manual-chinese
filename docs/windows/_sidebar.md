@@ -8,5 +8,6 @@
   - [Atom 中的移动](windows/chapter2/moving-in-atom)
   - [编辑和删除文本](windows/chapter2/editing-and-deleting-text)
   - [查找和替换](windows/chapter2/find-and-replace)
+- [章节 3：定制 Atom](windows/chapter3/hacking-atom)
 - [附录 A：资源](windows/appendixa/resources)
   - [词汇表](windows/appendixa/glossary)
