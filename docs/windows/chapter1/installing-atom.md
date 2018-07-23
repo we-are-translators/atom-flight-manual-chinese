@@ -4,7 +4,7 @@
 
 安装 Atom 非常简单。通常情况下，你可以到 [https://atom.io](https://atom.io) ，在页面顶部你会看到一个想下面这样的下载按钮：
 
-![https://flight-manual.atom.io/getting-started/images/windows-downloads.png](https://flight-manual.atom.io/getting-started/images/windows-downloads.png)
+![Download buttons on https://atom.io](https://flight-manual.atom.io/getting-started/images/windows-downloads.png)
 
 这个按钮或这些按钮对应下载的安装包是针对你的平台的，下载安装包也是易于安装的。不过，还是让我们在这里详细的回顾一下它们吧。
 
@@ -12,7 +12,7 @@
 
 Atom 支持 Windows installer 安装，可以从 [https://atom.io](https://atom.io) 下载或者从 [Atom releases page](https://github.com/atom/atom/releases/tag/v1.28.0) 下载名叫 `AtomSetup.exe` 的包。安装程序将安装 Atom，并添加 `atom` 和 `apm` 命令到 `PATH`，然后在桌面创建和开始菜单里添加快捷方式。
 
-![https://flight-manual.atom.io/getting-started/images/windows-system-settings.png](https://flight-manual.atom.io/getting-started/images/windows-system-settings.png)
+![Atom on Windows](https://flight-manual.atom.io/getting-started/images/windows-system-settings.png)
 
 在 File Explorer 中上下文菜单 `Open with Atom` ，使 Atom 能用 `Open with...` 做文件关联，通过上面所示的 System Settings 面板控制。
 

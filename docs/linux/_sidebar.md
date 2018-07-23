@@ -10,5 +10,6 @@
   - [查找和替换](linux/chapter2/find-and-replace)
 - [章节 3：定制 Atom](linux/chapter3/hacking-atom)
   - [开发工具](linux/chapter3/tools-of-the-trade)
+  - [初始化文件](linux/chapter3/the-init-file)
 - [附录 A：资源](linux/appendixa/resources)
   - [词汇表](linux/appendixa/glossary)

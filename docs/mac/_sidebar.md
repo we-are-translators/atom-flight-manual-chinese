@@ -10,5 +10,6 @@
   - [查找和替换](mac/chapter2/find-and-replace)
 - [章节 3：定制 Atom](mac/chapter3/hacking-atom)
   - [开发工具](mac/chapter3/tools-of-the-trade)
+  - [初始化文件](mac/chapter3/the-init-file)
 - [附录 A：资源](mac/appendixa/resources)
   - [词汇表](mac/appendixa/glossary)
