@@ -10,7 +10,7 @@
 
 ## 术语
 
-你可以在我们的 [词汇表](/windows/appendixa/glossary) 找到我们使用遍及本手册的各种术语的定义
+你可以在我们的[术语表](/windows/appendixa/glossary)找到我们使用遍及本手册的各种术语的定义
 
 ## 命令调色板
 
@@ -44,8 +44,8 @@ Atom 有许多设置与偏好，你可以在设置界面里修改。
 
 要打开设置界面，你可以：
 
-* 在菜单条中选择 `File > Settings` 菜单项
-* 在 [Command Palette](/linux/chapter1/atom-basics?id=命令调色板)
+* 在菜单条中选择 *File > Settings* 菜单项
+* 在 [Command Palette](/windows/chapter1/atom-basics?id=命令调色板)
 * 用 <kbd>Ctrl+</kbd>，快捷键绑定
 
 ### 更换主题
@@ -76,13 +76,13 @@ UI 主题控制 UI 元素的样式，像 tabs 和 tree view 之类的元素，�
 
 ### 打开文件
 
-Atom 中有好几种方式可以打开文件。你可以从菜单条选择 File > Open 或按 <kbd>Ctrl+O</kbd> 从标准对话框中选择文件
+Atom 中有好几种方式可以打开文件。你可以从菜单条选择 *File > Open* 或按 <kbd>Ctrl+O</kbd> 从标准对话框中选择文件
 
 ![Open file by dialog](https://flight-manual.atom.io/getting-started/images/open-file.png)
 
 这对于打开你当前项目（接下来会详细介绍）外的文件,或者如果因为某些原因你需要从新窗口打开文件，是非常有用的。
 
-Atom 中另一个打开文件的方式是在命令行使用 `atom` 命令。作为 Atom 安装过程中的一部分 `atom` 和 `apm` 命令是自动安装好了的。
+Atom 中另一个打开文件的方式是在命令行使用 `atom` 命令。作为 Atom [安装过程](/windows/chapter1/installing-atom)中的一部分 `atom` 和 `apm` 命令是自动安装好了的。
 
 在 Atom 中，你可以运行 `atom` 命令带一个或多个文件路径来打开那些文件
 
@@ -103,11 +103,11 @@ window.
 
 编辑文件是非常简单的。你可以在周围点击并用鼠标滚动然后输入更改的内容。没有特殊的编辑模式或快捷键命令。如果你更喜欢带有编辑模式或者带有更多灵活的快捷键命令的编辑器，你可以看一看 [Atom package list](https://atom.io/packages)。那儿有许多模仿流行风格的包。
 
-要保存文件你可以从菜单条选择 File > Save 或者按 <kbd>Ctrl+S</kbd> 组合键来保存文件。如果你选择 File > Save As 或者按 <kbd>Ctrl+Shift+S</kbd> 那么你可以在不同的文件名下保存编辑器中的当前内容。最后，你可以选择 File > Save All 来保存所有在 Atom 中打开的文件。
+要保存文件你可以从菜单条选择 *File > Save* 或者按 <kbd>Ctrl+S</kbd> 组合键来保存文件。如果你选择 *File > Save As* 或者按 <kbd>Ctrl+Shift+S</kbd> 那么你可以在不同的文件名下保存编辑器中的当前内容。最后，你可以选择 *File > Save All* 来保存所有在 Atom 中打开的文件。
 
 ## 打开目录
 
-不过 Atom 不仅仅只能对但文件进行操作;你很有可能花大部分时间在多个文件的项目中工作。要打开一个目录，选择菜单项 File > Open Folder 并从对话框中选择一个目录。你也可以通过从菜单条中选择 File > Add Project Folder 或按 <kbd>Ctrl+Shift+A</kbd> 添加多个目录到你当前的 Atom 窗口中。
+不过 Atom 不仅仅只能对但文件进行操作;你很有可能花大部分时间在多个文件的项目中工作。要打开一个目录，选择菜单项 *File > Open Folder* 并从对话框中选择一个目录。你也可以通过从菜单条中选择 *File > Add Project Folder* 或按 <kbd>Ctrl+Shift+A</kbd> 添加多个目录到你当前的 Atom 窗口中。
 
 你可以在命令行给 `atom` 命令行工具输入它们的路径打开任意数量的目录。比如，你可以运行命令 `atom ./hopes ./dreams` 来同时打开 `hopes` 和 `dreams` 目录。
 
@@ -117,7 +117,7 @@ window.
 
 这个树形界面允许你查看和修改文件以及项目的目录结构。你可以在这个视图打开，重命名，删除和创建文件。
 
-你也可以按 <kbd>Ctrl+\</kbd> 或者在命令调色板中输入 `tree-view:toggle` 隐藏和显示树形界面，并按 <kbd>Alt+\</kbd> 聚焦它。当树形界面处在聚焦状态是，你可以按 <kbd>A</kbd>，<kbd>M</kbd>，或 <kbd>Delete</kbd> 来添加，移动或删除文件以及文件夹。你也可以在树形界面的文件或文件夹上点击右键来查看许多不同的操作，包括所有这些加在本地文件系统中显示文件或复制文件路径到剪贴板。
+你也可以按 <kbd>Ctrl+\\</kbd> 或者在命令调色板中输入 `tree-view:toggle` 隐藏和显示树形界面，并按 <kbd>Alt+\\</kbd> 聚焦它。当树形界面处在聚焦状态是，你可以按 <kbd>A</kbd>，<kbd>M</kbd>，或 <kbd>Delete</kbd> 来添加，移动或删除文件以及文件夹。你也可以在树形界面的文件或文件夹上点击右键来查看许多不同的操作，包括所有这些加在本地文件系统中显示文件或复制文件路径到剪贴板。
 
 > Atom Packages
 >
