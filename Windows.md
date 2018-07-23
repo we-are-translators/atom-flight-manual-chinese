@@ -21,7 +21,7 @@
   * [ ] Basic Customization
   * [ ] Summary
 * Chapter 3: Hacking Atom
-  * [ ] Tools of the Trade
+  * [x] Tools of the Trade
   * [ ] The Init File
   * [ ] Package: Word Count
   * [ ] Package: Modifying Text
