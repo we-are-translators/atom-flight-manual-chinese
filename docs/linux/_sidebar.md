@@ -11,5 +11,6 @@
 - [章节 3：定制 Atom](linux/chapter3/hacking-atom)
   - [开发工具](linux/chapter3/tools-of-the-trade)
   - [初始化文件](linux/chapter3/the-init-file)
+  - [插件包：字数统计](linux/chapter3/package-word-count)
 - [附录 A：资源](linux/appendixa/resources)
   - [词汇表](linux/appendixa/glossary)
