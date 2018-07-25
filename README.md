@@ -2,7 +2,7 @@
 
 翻译 Atom 飞行手册中文版，原文地址 [`https://flight-manual.atom.io/`](https://flight-manual.atom.io/)
 
-在线阅读：[https://tanglj.cn/atom-flight-manual-chinese](https://tanglj.cn/atom-flight-manual-chinese)
+在线阅读：[https://we-are-translators.github.io/atom-flight-manual-chinese](https://we-are-translators.github.io/atom-flight-manual-chinese)
 
 ## 翻译进度
 
