@@ -1,6 +1,6 @@
 # 初始化文件
 
-当 Atom 完成加载，它将在 `~/.atom` 目录读取 `init.coffee` 文件，这给你一个运行 CoffeeScript 代码的机会来做自定义功能。这个文件中的代码可以完全访问 [Atom's API](https://atom.io/docs/api/v1.28.2/AtomEnvironment)。如果自定义功能变得广泛使用，可以考虑创建一个插件包，我们将在 [插件包：字数统计]
+当 Atom 完成加载，它将在 `~/.atom` 目录读取 `init.coffee` 文件，这给你一个运行 CoffeeScript 代码的机会来做自定义功能。这个文件中的代码可以完全访问 [Atom's API](https://atom.io/docs/api/v1.28.2/AtomEnvironment)。如果自定义功能变得广泛使用，可以考虑创建一个插件包，我们将在[包：字数统计](/mac/chapter3/package-word-count)一节中详细讨论。
 
 你可以从 *Atom > Init Script menu* 菜单在编辑器中打开 `init.coffee` 文件。这个文件也可以命名为 `init.js` 并且包含 JavaScript 代码。
 

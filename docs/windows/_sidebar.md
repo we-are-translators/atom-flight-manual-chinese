@@ -11,5 +11,6 @@
 - [章节 3：定制 Atom](windows/chapter3/hacking-atom)
   - [开发工具](windows/chapter3/tools-of-the-trade)
   - [初始化文件](windows/chapter3/the-init-file)
+  - [包：字数统计](windows/chapter3/package-word-count)
 - [附录 A：资源](windows/appendixa/resources)
   - [词汇表](windows/appendixa/glossary)

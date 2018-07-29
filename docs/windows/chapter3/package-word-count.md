@@ -6,7 +6,7 @@
 
 创建包最简单的方式是使用 Atom 内置的包生成器。如你所料，这个生成器自身是一个独立实现于 [package-generator](https://github.com/atom/package-generator) 的包。
 
-你可以调用指令面板并搜索 "Generate Package" 来运行包生成器。然后将会弹出一个对话框要求你给新项目命名。我们命名它为 `your-name-word-count`。Atom 然后将创建那个目录并生成一个基础的项目框架，它会连接到你的 `~/.atom/packages` 目录，所以当你下次打开编辑器时便会加载这个新创建的包。
+你可以调用指令面板并搜索 "Generate Package" 来运行包生成器。然后将会弹出一个对话框要求你给新项目命名。我们命名它为 `your-name-word-count`。Atom 然后将创建那个目录并生成一个基础的项目框架，它会连接到你的 `%USERPROFILE%\.atom\packages` 目录，所以当你下次打开编辑器时便会加载这个新创建的包。
 
 > 注意：你可能会遇到包无法加载的问题。这是因为新的包使用与实际托管在 [atom.io](https://atom.io/packages) 的包一样的名字（比如 "wordcount" 和 "word-count"）是无法如你预期加载的。如果你按照我们的建议，使用上面的 `your-name-word-count` 包名字，那就没有问题 :grinning:
 

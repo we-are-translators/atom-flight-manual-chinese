@@ -106,7 +106,7 @@ my-package/
 
 你的包的样式表应该放在 `styles` 目录。当你的包激活后，将加载任何在这个目录中的样式表并添加到 DOM 上。样式表可以用 CSS 或 [Less](http://lesscss.org/) 编写，不过推荐使用 Less 来编写。
 
-理论上来说，你无需太多关于样式方面的知识。Atom 提供了与之无缝结合的标准套件来给任何包定义颜色和 UI 元素。你可以打开风格指南查看所有 Atom 的 UI 组件：按下 <kbd>Ctrl+Shift+P</kbd> 打开命令面板并搜索 `styleguide`，或者输入 <kbd>Ctrl+Shift+G</kbd>
+理论上来说，你无需太多关于样式方面的知识。Atom 提供了与之无缝结合的标准套件来给任何包定义颜色和 UI 元素。你可以打开风格指南查看所有 Atom 的 UI 组件：按下 <kbd>Cmd+Shift+P</kbd> 打开命令面板并搜索 `styleguide`，或者输入 <kbd>Cmd+Ctrl+Shift+G</kbd>
 
 如果你需要特殊的样式，可以尝试只在包样式表中保留结构样式。如果你必须指定颜色和大小，这些应该从活动主题的 [ui-variables.less](https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less) 中获取。
 
@@ -435,7 +435,7 @@ setCount(count) {
 
 你将在代码中注意到少许 `console.log` 语句。关于 Atom 基于 Chromium 上构建的一件非常酷的事情是你在网页开发中能使用的调试工具同样也可以在 Atom 中使用。
 
-要打开开发控制台，按 <kbd>Ctrl+Shift+I</kbd>，或者选择菜单选项 **View > Developer > Toggle Developer Tools**。
+要打开开发控制台，按 <kbd>Alt+Cmd+I</kbd>，或者选择菜单选项 **View > Developer > Toggle Developer Tools**。
 
 ![Developer Tools Debugging](https://flight-manual.atom.io/hacking-atom/images/dev-tools.png)
 
@@ -450,7 +450,7 @@ setCount(count) {
 
 ### 运行测试
 
-一旦你写好的测试套件，你可以按 <kbd>Alt+Ctrl+P</kbd> 或通过 **View > Developer > Run Package Specs** 菜单来运行。我们生成的包带有一个示例测试套件，所以你可以现在运行看看发生了什么。
+一旦你写好的测试套件，你可以按 <kbd>Alt+Cmd+Ctrl+P</kbd> 或通过 **View > Developer > Run Package Specs** 菜单来运行。我们生成的包带有一个示例测试套件，所以你可以现在运行看看发生了什么。
 
 ![Spec Suite Results](https://flight-manual.atom.io/hacking-atom/images/spec-suite.png)
 
