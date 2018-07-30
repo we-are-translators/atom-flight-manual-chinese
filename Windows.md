@@ -23,7 +23,7 @@
 * Chapter 3: Hacking Atom
   * [x] Tools of the Trade
   * [x] The Init File
-  * [ ] Package: Word Count
+  * [x] Package: Word Count
   * [ ] Package: Modifying Text
   * [ ] Package: Active Editor Info
   * [ ] Creating a Theme
