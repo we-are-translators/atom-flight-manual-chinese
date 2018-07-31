@@ -36,7 +36,7 @@
   * [ ] Cross-Platform Compatibility
   * [ ] Converting from TextMate
   * [ ] Hacking on Atom Core
-  * [ ] Contributing to Official Atom Packages
+  * [x] Contributing to Official Atom Packages
   * [ ] Summary
 * Chapter 4: Behind Atom
   * [ ] Configuration API

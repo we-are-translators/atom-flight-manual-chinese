@@ -12,5 +12,6 @@
   - [开发工具](mac/chapter3/tools-of-the-trade)
   - [初始化文件](mac/chapter3/the-init-file)
   - [包：字数统计](mac/chapter3/package-word-count)
+  - [给官方 Atom 包贡献](mac/chapter3/contributing-to-official-atom-packages)
 - [附录 A：资源](mac/appendixa/resources)
   - [词汇表](mac/appendixa/glossary)
