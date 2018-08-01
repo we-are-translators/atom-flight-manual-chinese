@@ -13,5 +13,6 @@
   - [初始化文件](linux/chapter3/the-init-file)
   - [包：字数统计](linux/chapter3/package-word-count)
   - [给官方 Atom 包贡献](linux/chapter3/contributing-to-official-atom-packages)
+  - [小结](linux/chapter3/summary)
 - [附录 A：资源](linux/appendixa/resources)
   - [词汇表](linux/appendixa/glossary)
