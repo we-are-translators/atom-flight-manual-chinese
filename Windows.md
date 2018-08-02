@@ -29,7 +29,7 @@
   * [ ] Creating a Theme
   * [ ] Creating a Grammar
   * [x] Publishing
-  * [ ] Iconography
+  * [x] Iconography
   * [ ] Debugging
   * [ ] Writing specs
   * [ ] Handling URIs
