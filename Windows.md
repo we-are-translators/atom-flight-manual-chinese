@@ -28,7 +28,7 @@
   * [ ] Package: Active Editor Info
   * [ ] Creating a Theme
   * [ ] Creating a Grammar
-  * [ ] Publishing
+  * [x] Publishing
   * [ ] Iconography
   * [ ] Debugging
   * [ ] Writing specs
@@ -37,7 +37,7 @@
   * [ ] Converting from TextMate
   * [ ] Hacking on Atom Core
   * [x] Contributing to Official Atom Packages
-  * [ ] Summary
+  * [x] Summary
 * Chapter 4: Behind Atom
   * [ ] Configuration API
   * [ ] Keymaps In-Depth

@@ -12,6 +12,7 @@
   - [开发工具](windows/chapter3/tools-of-the-trade)
   - [初始化文件](windows/chapter3/the-init-file)
   - [包：字数统计](windows/chapter3/package-word-count)
+  - [发布](windows/chapter3/publishing)
   - [给官方 Atom 包贡献](windows/chapter3/contributing-to-official-atom-packages)
   - [小结](windows/chapter3/summary)
 - [附录 A：资源](windows/appendixa/resources)
