@@ -12,6 +12,7 @@
   - [开发工具](linux/chapter3/tools-of-the-trade)
   - [初始化文件](linux/chapter3/the-init-file)
   - [包：字数统计](linux/chapter3/package-word-count)
+  - [包：修改文本](linux/chapter3/package-modifying-text)
   - [发布](linux/chapter3/publishing)
   - [字体图标](linux/chapter3/iconography)
   - [给官方 Atom 包贡献](linux/chapter3/contributing-to-official-atom-packages)

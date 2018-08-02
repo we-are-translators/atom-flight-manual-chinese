@@ -28,7 +28,7 @@ Atom 也有一些移动命令和选择命令默认没有快捷键绑定。你可
   'ctrl-shift-e': 'editor:select-to-previous-word-boundary'
 ```
 
-这将绑定命令 `editor:select-to-previous-word-boundary` 到 <kbd>Ctrl+Shift+E</kbd>。获取更多关于自定义快捷键的信息，查看[自定义快捷键绑定](linux/chapter2/basic-customization?id=自定义快捷键绑定)。
+这将绑定命令 `editor:select-to-previous-word-boundary` 到 <kbd>Ctrl+Shift+E</kbd>。获取更多关于自定义快捷键的信息，查看 [自定义快捷键绑定](linux/chapter2/basic-customization?id=自定义快捷键绑定) 。
 
 这是一份默认没有快捷绑定的移动命令和选择命令列表：
 
@@ -61,7 +61,7 @@ editor:select-to-previous-word-boundary
 
 一旦你已经生成了 `tags` 文件，你可以按 <kbd>Ctrl+Shift+R</kbd> 来进行跨项目的标记搜索。
 
-你可以通过在你的 home 目录，`%USERPROFILE%\.ctags` 创建你自己的 `.ctags` 文件来自定义创建多少 tags。可以在[这里](https://github.com/atom/symbols-view/blob/master/lib/ctags-config)找到一个示例。
+你可以通过在你的 home 目录，`%USERPROFILE%\.ctags` 创建你自己的 `.ctags` 文件来自定义创建多少 tags。可以在 [这里](https://github.com/atom/symbols-view/blob/master/lib/ctags-config) 找到一个示例。
 
 标记导航功能在 [symbols-view](https://github.com/atom/symbols-view) 包中实现。
 
@@ -69,7 +69,7 @@ editor:select-to-previous-word-boundary
 
 Atom 也有一个非常好的方式来给你项目中的指定行添加书签，所以你可以快速的跳回到它们。
 
-如果你按 <kbd>Alt+Ctrl+F2</kbd>，Atom 将在当前行切换 "bookmark"。你可以通过项目设置这些书签以及用它们来快速查找和跳转到你项目的重要行。在行的凹槽里会添加一个小书签标记，像[下面图片](/linux/chapter2/moving-in-atom?id=bookmarks-image)中的 22 行。
+如果你按 <kbd>Alt+Ctrl+F2</kbd>，Atom 将在当前行切换 "bookmark"。你可以通过项目设置这些书签以及用它们来快速查找和跳转到你项目的重要行。在行的凹槽里会添加一个小书签标记，像 [下面图片](/linux/chapter2/moving-in-atom?id=bookmarks-image) 中的 22 行。
 
 如果你按 <kbd>F2</kbd>, Atom 将转到在你当前聚焦的文件中的下一个书签。如果你使用 <kbd>Shift+F2</kbd> 将在它们中反向循环。
 

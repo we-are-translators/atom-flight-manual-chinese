@@ -11,7 +11,7 @@ Atom 捆绑了一个叫做 `apm` 的命令行功能，我们在 [命令行](linu
 * 你的 `package.json` 文件有一个 `engines` 字段，它包含一个 Atom 的入口比如：`"engines": {"atom": ">=1.0.0 <2.0.0"}`。
 * 你的包在根目录有一个 `README.md` 文件。
 * 你的 `package.json` 文件中的 `repository` URL 与你的仓库 URL 是相同的。
-* 你的包是在 Git 仓库中并且它已经推送到了 [GitHub](https://github.com/)。如果你的包还没有在 GitHub，你可以参考[这篇指南](https://help.github.com/articles/importing-a-git-repository-using-the-command-line/)。
+* 你的包是在 Git 仓库中并且它已经推送到了 [GitHub](https://github.com/)。如果你的包还没有在 GitHub，你可以参考 [这篇指南](https://help.github.com/articles/importing-a-git-repository-using-the-command-line/)。
 
 ## 发布你的包
 

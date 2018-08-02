@@ -8,7 +8,7 @@
 
 ## 指令
 
-指令是 Atom 中的功能点，用户通过[快捷键](/windows/appendixa/glossary?id=快捷键)或者菜单项可以触发它们。
+指令是 Atom 中的功能点，用户通过 [快捷键](/windows/appendixa/glossary?id=快捷键) 或者菜单项可以触发它们。
 
 ## 码头
 
@@ -36,31 +36,31 @@
 
 ## 快捷键
 
-快捷键是[组合键](/windows/appendixa/glossary?id=组合键)的映射，比如 Atom 指令 <kbd>Ctrl+Enter</kbd>
+快捷键是 [组合键](/windows/appendixa/glossary?id=组合键) 的映射，比如 Atom 指令 <kbd>Ctrl+Enter</kbd>
 
 ## 键映射
 
 A keymap is a collection of keybindings. It can also refer to a file or files containing keybindings for an Atom package or Atom itself.
 
-键映射是[快捷键](/windows/appendixa/glossary?id=快捷键)的集合。它也可以指 Atom 包或者 Atom 自身的包含快捷键绑定的文件。
+键映射是 [快捷键](/windows/appendixa/glossary?id=快捷键) 的集合。它也可以指 Atom 包或者 Atom 自身的包含快捷键绑定的文件。
 
 ## 包
 
-Atom 插件。在[Atom 包](/windows/chapter2/atom-packages)更多信息一节里有更多信息。
+Atom 插件。在 [Atom 包](/windows/chapter2/atom-packages) 更多信息一节里有更多信息。
 
 ## 窗格
 
-窗格是编辑器空间的可视区域。每个窗格可以容纳多个[窗格项](/windows/appendixa/glossary?id="窗格项")。在每一个 Atom 窗口中至少保留一个窗格。
+窗格是编辑器空间的可视区域。每个窗格可以容纳多个 [窗格项](/windows/appendixa/glossary?id="窗格项") 。在每一个 Atom 窗口中至少保留一个窗格。
 
 ## 窗格容器
 
-Atom UI 的一部分，它可以包含多个[窗格](/windows/appendixa/glossary?id=窗格)。
+Atom UI 的一部分，它可以包含多个 [窗格](/windows/appendixa/glossary?id=窗格) 。
 
 ## 窗格项
 
-通常在一个[窗格](/windows/appendixa/glossary?id=窗格)中显示一些编辑器项。在 Atom 的默认配置中，窗格项通过每个窗格顶部的标签表示。
+通常在一个 [窗格](/windows/appendixa/glossary?id=窗格) 中显示一些编辑器项。在 Atom 的默认配置中，窗格项通过每个窗格顶部的标签表示。
 
-> 注意：我们之所以不叫它们“标签”是因为你可以禁用 [tabs package](https://github.com/atom/tabs)，然后不显示任何标签。同样的原因，我们不叫它们文件是因为一些可以在窗格里显示的东西它们并不是文件，像设置界面这样的。
+> 注意：我们之所以不叫它们“标签”是因为你可以禁用 [tabs package](https://github.com/atom/tabs) s，然后不显示任何标签。同样的原因，我们不叫它们文件是因为一些可以在窗格里显示的东西它们并不是文件，像设置界面这样的。
 
 ## 面板
 
