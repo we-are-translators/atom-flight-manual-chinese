@@ -24,7 +24,7 @@
   * [x] Tools of the Trade
   * [x] The Init File
   * [x] Package: Word Count
-  * [ ] Package: Modifying Text
+  * [x] Package: Modifying Text
   * [ ] Package: Active Editor Info
   * [ ] Creating a Theme
   * [ ] Creating a Grammar

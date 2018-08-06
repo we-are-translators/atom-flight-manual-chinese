@@ -16,7 +16,7 @@
 
 ## 基础文本插入
 
-首先，按 <kbd>Ctrl+Shift+P</kbd> 打开 [指令面板](https://github.com/atom/command-palette)。输入 "generate package" 并选择 "Package Generator: Generate Package" 指令，就像我们在 [包生成器一节](linux/chapter3/package-word-count?id=包生成器) 中做的那样。输入 `ascii-art` 作为包名。
+首先，按 <kbd>Cmd+Shift+P</kbd> 打开 [指令面板](https://github.com/atom/command-palette)。输入 "generate package" 并选择 "Package Generator: Generate Package" 指令，就像我们在 [包生成器一节](linux/chapter3/package-word-count?id=包生成器) 中做的那样。输入 `ascii-art` 作为包名。
 
 现在让我们编辑包文件来让我们的 ASCII Art 包做一些有趣的事。由于该包不需要任何 UI，我们可以移除所有视图相关的代码，因此我们继续并删除 `lib/ascii-art-view.js` ，`spec/ascii-art-view-spec.js` ，以及 `styles/` 。
 
@@ -64,7 +64,7 @@ convert() {
 
 ### 重新加载包
 
-在我们能够触发 `ascii-art:convert` 指令之前，我们需要重新加载窗口来为我们的包加载最新的代码。从指令面板运行指令 "Window: Reload" 或者按 <kbd>Ctrl+Shift+F5</kbd> 。
+在我们能够触发 `ascii-art:convert` 指令之前，我们需要重新加载窗口来为我们的包加载最新的代码。从指令面板运行指令 "Window: Reload" 或者按 <kbd>Alt+Cmd+Ctrl+L</kbd> 。
 
 ### 触发命令
 
