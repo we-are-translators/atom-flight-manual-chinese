@@ -34,7 +34,7 @@
   * [ ] Writing specs
   * [ ] Handling URIs
   * [x] Cross-Platform Compatibility
-  * [ ] Converting from TextMate
+  * [x] Converting from TextMate
   * [ ] Hacking on Atom Core
   * [x] Contributing to Official Atom Packages
   * [x] Summary

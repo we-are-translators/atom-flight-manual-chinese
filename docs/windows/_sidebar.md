@@ -16,6 +16,7 @@
   - [发布](windows/chapter3/publishing)
   - [字体图标](windows/chapter3/iconography)
   - [跨平台兼容性](windows/chapter3/cross-platform-compatibility)
+  - [从 TextMate 转换](windows/chapter3/converting-from-textmate)
   - [给官方 Atom 包贡献](windows/chapter3/contributing-to-official-atom-packages)
   - [小结](windows/chapter3/summary)
 - [附录 A：资源](windows/appendixa/resources)

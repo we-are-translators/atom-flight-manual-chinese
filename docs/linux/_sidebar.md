@@ -16,6 +16,7 @@
   - [发布](linux/chapter3/publishing)
   - [字体图标](linux/chapter3/iconography)
   - [跨平台兼容性](linux/chapter3/cross-platform-compatibility)
+  - [从 TextMate 转换](linux/chapter3/converting-from-textmate)
   - [给官方 Atom 包贡献](linux/chapter3/contributing-to-official-atom-packages)
   - [小结](linux/chapter3/summary)
 - [附录 A：资源](linux/appendixa/resources)
