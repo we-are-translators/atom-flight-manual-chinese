@@ -15,6 +15,7 @@
   - [包：修改文本](linux/chapter3/package-modifying-text)
   - [发布](linux/chapter3/publishing)
   - [字体图标](linux/chapter3/iconography)
+  - [跨平台兼容性](linux/chapter3/cross-platform-compatibility)
   - [给官方 Atom 包贡献](linux/chapter3/contributing-to-official-atom-packages)
   - [小结](linux/chapter3/summary)
 - [附录 A：资源](linux/appendixa/resources)

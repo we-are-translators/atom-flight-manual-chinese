@@ -33,7 +33,7 @@
   * [ ] Debugging
   * [ ] Writing specs
   * [ ] Handling URIs
-  * [ ] Cross-Platform Compatibility
+  * [x] Cross-Platform Compatibility
   * [ ] Converting from TextMate
   * [ ] Hacking on Atom Core
   * [x] Contributing to Official Atom Packages
