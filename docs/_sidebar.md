@@ -1,4 +1,0 @@
-- [章节 1：起步](chapter1/getting-started)
-  - [为什么选择 Atom](chapter1/why-atom)
-  - [安装 Atom](chapter1/installing-atom)
-  - [Atom 基础知识](chapter1/atom-basics)

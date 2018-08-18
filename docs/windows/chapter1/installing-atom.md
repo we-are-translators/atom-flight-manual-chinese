@@ -4,7 +4,7 @@
 
 安装 Atom 非常简单。通常情况下，你可以到 [https://atom.io](https://atom.io) ，在页面顶部你会看到一个想下面这样的下载按钮：
 
-![https://flight-manual.atom.io/getting-started/images/windows-downloads.png](https://flight-manual.atom.io/getting-started/images/windows-downloads.png)
+![Download buttons on https://atom.io](https://flight-manual.atom.io/getting-started/images/windows-downloads.png)
 
 这个按钮或这些按钮对应下载的安装包是针对你的平台的，下载安装包也是易于安装的。不过，还是让我们在这里详细的回顾一下它们吧。
 
@@ -12,7 +12,7 @@
 
 Atom 支持 Windows installer 安装，可以从 [https://atom.io](https://atom.io) 下载或者从 [Atom releases page](https://github.com/atom/atom/releases/tag/v1.28.0) 下载名叫 `AtomSetup.exe` 的包。安装程序将安装 Atom，并添加 `atom` 和 `apm` 命令到 `PATH`，然后在桌面创建和开始菜单里添加快捷方式。
 
-![https://flight-manual.atom.io/getting-started/images/windows-system-settings.png](https://flight-manual.atom.io/getting-started/images/windows-system-settings.png)
+![Atom on Windows](https://flight-manual.atom.io/getting-started/images/windows-system-settings.png)
 
 在 File Explorer 中上下文菜单 `Open with Atom` ，使 Atom 能用 `Open with...` 做文件关联，通过上面所示的 System Settings 面板控制。
 
@@ -31,7 +31,7 @@ e:\atom-1.14\atom.exe
 e:\.atom
 ```
 
-### 编写模式注意点
+### 便携模式注意点
 
 * `.atom` 目录必须是可写的
 * 你可以赋值一个现有的 `.atom` 目录到你的便携设备
@@ -47,8 +47,6 @@ e:\.atom
 
 ### 在防火墙后面？
 
-If you are behind a firewall and seeing SSL errors when installing packages you can disable strict SSL by running:
-
 如果你处在防火墙后面而且在安装包文件时遇到 SSL 错误，你可以禁用 strict SSL，运行如下代码：
 
 ```
@@ -57,10 +55,10 @@ C:\> apm config set strict-ssl false
 
 ### 使用代理？
 
-If you are using a HTTP(S) proxy you can configure apm to use it by running:
-
 如果你使用 HTTP(S) 代理你可以通过运行下面的代码设置 apm：
 
 ```
 C:\> apm config set https-proxy YOUR_PROXY_ADDRESS
 ```
+
+你可以运行 `apm config get https-proxy` 来验证它是否设置正确。

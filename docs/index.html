@@ -6,23 +6,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+
+  <!-- Icon -->
+  <link href="//flight-manual.atom.io/favicon.ico" rel="shortcut icon">
+  <link href="//unpkg.com/docsify/lib/themes/vue.css" rel="stylesheet">
+  <script src="//cdn.bootcss.com/platform/1.3.5/platform.min.js"></script>
+  <script src="//unpkg.com/current-device/umd/current-device.min.js"></script>
 </head>
 <body>
   <div id="app" data-app>正在努力加载中...</div>
-  <!-- <script>
+  <script>
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
     }
-  </script> -->
+  </script>
   <script>
     window.$docsify = {
-      name: '[译] Atom 飞行手册',
+      name: 'Atom 飞行手册',
+      repo: 'https://github.com/we-are-translators/atom-flight-manual-chinese.git',
       loadSidebar: true,
+      loadNavbar: true,
+      mergeNavbar: true,
+      coverpage: [
+        '/windows/',
+        '/mac/',
+        '/linux/'
+      ],
+      // onlyCover: true,
+      auto2top: true,
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+        '/.*/_navbar.md': '/_navbar.md'
       },
-      subMaxLevel: 3,
+      subMaxLevel: 4,
       search: {
         placeholder: {
           '/': '搜索'
@@ -35,16 +50,37 @@
       themeColor: '#aa00ff',
       plugins: [
         function (hook, vm) {
-          hook.beforeEach(function (html) {
+          hook.beforeEach(function (html, next) {
+
+            vm.config.alias['/.*/_sidebar.md'] = vm.route.path.match(/\/([a-z]*)\//)[1] + '/_sidebar.md'
+
+            var url = 'https://github.com/cntanglijun/atom-flight-manual-chinese/blob/master/docs/' + vm.route.file
+            var editHtml = '<div style="text-align:right">[:memo: 完善文档](' + url + ')</div>\n'
+
             html += '\n---\n'
-            html += '{docsify-updated} '
-            return html
+            html += '{docsify-updated}'
+
+            next(editHtml + html)
+          })
+
+          hook.mounted(function () {
+            var searchParams = location.hash.match(/(\?[^\?]*)/)
+
+            searchParams = searchParams ? searchParams[1] : ''
+
+            if (device.type === 'desktop') {
+              location.replace('#' + (vm.route.path === '/' ? '/' + platform.os.family.toLocaleLowerCase() + '/' : vm.route.path + searchParams))
+            } else {
+              location.replace('#' + (vm.route.path === '/' ? '/windows/' : vm.route.path + searchParams))
+            }
           })
         }
       ]
     }
   </script>
+  <script src="//unpkg.com/vue/dist/vue.min.js"></script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
 </body>
 </html>
