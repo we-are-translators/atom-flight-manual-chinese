@@ -24,20 +24,20 @@
   * [x] Tools of the Trade
   * [x] The Init File
   * [x] Package: Word Count
-  * [ ] Package: Modifying Text
+  * [x] Package: Modifying Text
   * [ ] Package: Active Editor Info
   * [ ] Creating a Theme
   * [ ] Creating a Grammar
-  * [ ] Publishing
-  * [ ] Iconography
+  * [x] Publishing
+  * [x] Iconography
   * [ ] Debugging
   * [ ] Writing specs
   * [ ] Handling URIs
-  * [ ] Cross-Platform Compatibility
-  * [ ] Converting from TextMate
+  * [x] Cross-Platform Compatibility
+  * [x] Converting from TextMate
   * [ ] Hacking on Atom Core
   * [x] Contributing to Official Atom Packages
-  * [ ] Summary
+  * [x] Summary
 * Chapter 4: Behind Atom
   * [ ] Configuration API
   * [ ] Keymaps In-Depth

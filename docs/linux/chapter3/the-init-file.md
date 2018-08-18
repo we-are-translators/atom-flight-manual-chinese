@@ -1,6 +1,6 @@
 # 初始化文件
 
-当 Atom 完成加载，它将在 `~/.atom` 目录读取 `init.coffee` 文件，这给你一个运行 CoffeeScript 代码的机会来做自定义功能。这个文件中的代码可以完全访问 [Atom's API](https://atom.io/docs/api/v1.28.2/AtomEnvironment)。如果自定义功能变得广泛使用，可以考虑创建一个插件包，我们将在[包：字数统计](/linux/chapter3/package-word-count)一节中详细讨论。
+当 Atom 完成加载，它将在 `~/.atom` 目录读取 `init.coffee` 文件，这给你一个运行 CoffeeScript 代码的机会来做自定义功能。这个文件中的代码可以完全访问 [Atom's API](https://atom.io/docs/api/v1.28.2/AtomEnvironment)。如果自定义功能变得广泛使用，可以考虑创建一个插件包，我们将在 [包：字数统计](/linux/chapter3/package-word-count) 一节中详细讨论。
 
 你可以从 *Edit > Init Script* 菜单在编辑器中打开 `init.coffee` 文件。这个文件也可以命名为 `init.js` 并且包含 JavaScript 代码。
 
@@ -22,4 +22,4 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', ->
   selection.insertText("[#{selection.getText()}](#{clipboardText})")
 ```
 
-现在，重启 Atom 并使用 [命令调色板](/windows/chapter1/atom-basics?id=命令调色板) 来执行名叫 "Markdown:Paste As Link" 的新命令。如果你喜欢用键盘快捷键来使用命令，你可以定义一个[快捷键绑定给这个命令](https://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings)。
+现在，重启 Atom 并使用 [命令调色板](/windows/chapter1/atom-basics?id=命令调色板) 来执行名叫 "Markdown:Paste As Link" 的新命令。如果你喜欢用键盘快捷键来使用命令，你可以定义一个 [快捷键绑定给这个命令](https://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings)。

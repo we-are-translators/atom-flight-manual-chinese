@@ -10,7 +10,7 @@
 
 ## 术语
 
-你可以在我们的[术语表](/windows/appendixa/glossary)找到我们使用遍及本手册的各种术语的定义
+你可以在我们的 [术语表](/windows/appendixa/glossary) 找到我们使用遍及本手册的各种术语的定义
 
 ## 命令调色板
 
@@ -82,7 +82,7 @@ Atom 中有好几种方式可以打开文件。你可以从菜单条选择 *File
 
 这对于打开你当前项目（接下来会详细介绍）外的文件,或者如果因为某些原因你需要从新窗口打开文件，是非常有用的。
 
-Atom 中另一个打开文件的方式是在命令行使用 `atom` 命令。作为 Atom [安装过程](/windows/chapter1/installing-atom)中的一部分 `atom` 和 `apm` 命令是自动安装好了的。
+Atom 中另一个打开文件的方式是在命令行使用 `atom` 命令。作为 Atom [安装过程](/windows/chapter1/installing-atom) 中的一部分 `atom` 和 `apm` 命令是自动安装好了的。
 
 在 Atom 中，你可以运行 `atom` 命令带一个或多个文件路径来打开那些文件
 
@@ -137,7 +137,7 @@ window.
 
 你也可以按 <kbd>Ctrl+B</kbd> 只在当前打开的文件中搜索（而不是你项目中的所有文件）。搜索会在 "buffers" 或打开的文件中进行。你也可以用 <kbd>Ctrl+Shift+B</kbd> 限制模糊搜索，它只会从你最后在 Git 提交的新文件或者已经修改了的文件中进行搜索。
 
-模糊查询器使用 `core.ignoredNames`，`fuzzy-finder.ignoredNames` 和 `core.excludeVCSIgnoredPaths` 的中的配置设置来过滤不显示的文件和文件夹。如果你有一个项目，这个项目包含大量不想在其中被搜索的文件，你可以添加模式匹配或文件路径到这些配置设置或者[标准的 .gitignore 文件](https://git-scm.com/docs/gitignore)。我们将在 `Global Configuration Settings` 一节中学习更多关于配置设置的内容，不过现在你可以在 Core Settings 下的设置界面简单的设置这些。
+模糊查询器使用 `core.ignoredNames`，`fuzzy-finder.ignoredNames` 和 `core.excludeVCSIgnoredPaths` 的中的配置设置来过滤不显示的文件和文件夹。如果你有一个项目，这个项目包含大量不想在其中被搜索的文件，你可以添加模式匹配或文件路径到这些配置设置或者 [标准的 .gitignore 文件](https://git-scm.com/docs/gitignore) 。我们将在 `Global Configuration Settings` 一节中学习更多关于配置设置的内容，不过现在你可以在 Core Settings 下的设置界面简单的设置这些。
 
 `core.ignoredNames` 和 `fuzzy-finder.ignoredNames` 都是用 [minimatch Node module](https://github.com/isaacs/minimatch) 实现的 glob 模式。
 
