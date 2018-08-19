@@ -10,8 +10,8 @@
   * [x] Editing and Deleting Text
   * [x] Find and Replace
   * [ ] Snippets
-  * [ ] Autocomplete
-  * [ ] Folding
+  * [x] Autocomplete
+  * [x] Folding
   * [ ] Panes
   * [ ] Pending Pane Items
   * [ ] Grammar

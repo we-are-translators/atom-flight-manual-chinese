@@ -8,10 +8,10 @@
   * [x] Moving in Atom
   * [ ] Atom Selections
   * [x] Editing and Deleting Text
-  * [X] Find and Replace
+  * [x] Find and Replace
   * [ ] Snippets
-  * [ ] Autocomplete
-  * [ ] Folding
+  * [x] Autocomplete
+  * [x] Folding
   * [ ] Panes
   * [ ] Pending Pane Items
   * [ ] Grammar
