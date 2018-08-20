@@ -8,8 +8,6 @@
   - [Atom 中的移动](windows/chapter2/moving-in-atom)
   - [编辑和删除文本](windows/chapter2/editing-and-deleting-text)
   - [查找和替换](windows/chapter2/find-and-replace)
-  - [自动完成](windows/chapter2/auto-complete)
-  - [折叠](windows/chapter2/folding) 
 - [章节 3：定制 Atom](windows/chapter3/hacking-atom)
   - [开发工具](windows/chapter3/tools-of-the-trade)
   - [初始化文件](windows/chapter3/the-init-file)

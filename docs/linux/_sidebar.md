@@ -8,8 +8,6 @@
   - [Atom 中的移动](linux/chapter2/moving-in-atom)
   - [编辑和删除文本](linux/chapter2/editing-and-deleting-text)
   - [查找和替换](linux/chapter2/find-and-replace)
-  - [自动完成](linux/chapter2/auto-complete)
-  - [折叠](linux/chapter2/folding) 
 - [章节 3：定制 Atom](linux/chapter3/hacking-atom)
   - [开发工具](linux/chapter3/tools-of-the-trade)
   - [初始化文件](linux/chapter3/the-init-file)
