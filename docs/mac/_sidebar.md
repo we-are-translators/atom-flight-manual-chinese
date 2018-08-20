@@ -9,6 +9,8 @@
   - [编辑和删除文本](mac/chapter2/editing-and-deleting-text)
   - [查找和替换](mac/chapter2/find-and-replace)
   - [代码片段](mac/chapter2/snippets)
+  - [自动完成](mac/chapter2/auto-complete)
+  - [折叠](mac/chapter2/folding) 
 - [章节 3：定制 Atom](mac/chapter3/hacking-atom)
   - [开发工具](mac/chapter3/tools-of-the-trade)
   - [初始化文件](mac/chapter3/the-init-file)
