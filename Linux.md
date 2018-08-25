@@ -25,7 +25,7 @@
   * [x] The Init File
   * [x] Package: Word Count
   * [x] Package: Modifying Text
-  * [ ] Package: Active Editor Info
+  * [x] Package: Active Editor Info
   * [ ] Creating a Theme
   * [ ] Creating a Grammar
   * [x] Publishing

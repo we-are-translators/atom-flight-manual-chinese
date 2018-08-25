@@ -7,7 +7,7 @@
 
 ## 创建包
 
-首先，按 <kbd>Ctrl+Shift+P</kbd> 打开 [指令面板](https://github.com/atom/command-palette)。输入 "generate package" 并选择 "Package Generator: Generator Package" 指令，就像我们在 [这个章节的包生成器](/linux/chapter3/package-word-count?id=包生成器) 小节中做的那样。输入 `active-editor-info` 作为包名。
+首先，按 <kbd>Cmd+Shift+P</kbd> 打开 [指令面板](https://github.com/atom/command-palette)。输入 "generate package" 并选择 "Package Generator: Generator Package" 指令，就像我们在 [这个章节的包生成器](/linux/chapter3/package-word-count?id=包生成器) 小节中做的那样。输入 `active-editor-info` 作为包名。
 
 ## 添加窗口
 
