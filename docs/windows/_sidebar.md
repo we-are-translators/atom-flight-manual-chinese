@@ -17,6 +17,7 @@
   - [包：字数统计](windows/chapter3/package-word-count)
   - [包：修改文本](windows/chapter3/package-modifying-text)
   - [包：活动编辑器信息](windows/chapter3/package-active-editor-info)
+  - [创建主题](windows/chapter3/create-a-theme)
   - [发布](windows/chapter3/publishing)
   - [字体图标](windows/chapter3/iconography)
   - [跨平台兼容性](windows/chapter3/cross-platform-compatibility)

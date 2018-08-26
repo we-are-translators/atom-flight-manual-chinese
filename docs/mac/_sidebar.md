@@ -17,6 +17,7 @@
   - [包：字数统计](mac/chapter3/package-word-count)
   - [包：修改文本](mac/chapter3/package-modifying-text)
   - [包：活动编辑器信息](mac/chapter3/package-active-editor-info)
+  - [创建主题](mac/chapter3/create-a-theme)
   - [发布](mac/chapter3/publishing)
   - [字体图标](mac/chapter3/iconography)
   - [跨平台兼容性](mac/chapter3/cross-platform-compatibility)

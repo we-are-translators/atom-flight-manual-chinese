@@ -26,7 +26,7 @@
   * [x] Package: Word Count
   * [x] Package: Modifying Text
   * [x] Package: Active Editor Info
-  * [ ] Creating a Theme
+  * [x] Creating a Theme
   * [ ] Creating a Grammar
   * [x] Publishing
   * [x] Iconography
