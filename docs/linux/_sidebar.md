@@ -17,7 +17,7 @@
   - [包：字数统计](linux/chapter3/package-word-count)
   - [包：修改文本](linux/chapter3/package-modifying-text)
   - [包：活动编辑器信息](linux/chapter3/package-active-editor-info)
-  - [创建主题](linux/chapter3/create-a-theme)
+  - [创建主题](linux/chapter3/creating-a-theme)
   - [发布](linux/chapter3/publishing)
   - [字体图标](linux/chapter3/iconography)
   - [跨平台兼容性](linux/chapter3/cross-platform-compatibility)

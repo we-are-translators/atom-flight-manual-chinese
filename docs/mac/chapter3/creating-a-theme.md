@@ -6,7 +6,7 @@ Atom 支持两种类型的主题：*UI* 和 *Syntax* 。UI 主题给元素设置
 
 ![Theme boundary](https://flight-manual.atom.io/hacking-atom/images/theme-boundary.png)
 
-主题可以从 Settings View 中安装和更换，Settings View 可以通过选择 File > Settings 菜单，然后在左手边的导航栏上面点击 "Install" 标签 或者 "Themes" 标签。
+主题可以从 Settings View 中安装和更换，Settings View 可以通过选择 Atom > Preferences 菜单，然后在左手边的导航栏上面点击 "Install" 标签 或者 "Themes" 标签。
 
 ## 起航
 
@@ -14,7 +14,7 @@ Atom 支持两种类型的主题：*UI* 和 *Syntax* 。UI 主题给元素设置
 
 * Less 是 CSS 的超集，不过它有一些像变量这样的而且真的非常有用的特性。如果你不熟悉它的语法，你可以自己花点时间去 [熟悉一下](https://speakerdeck.com/danmatthews/less-css) 。
 
-* 你也可能想要复习一下 `package.json` 的概念（如 [Atom `package.json`](/linux/chapter3/package-word-count?id=packagejson) 中所述）。该文件用于帮助发布你的主题给 Atom 用户。
+* 你也可能想要复习一下 `package.json` 的概念（如 [Atom `package.json`](/mac/chapter3/package-word-count?id=packagejson) 中所述）。该文件用于帮助发布你的主题给 Atom 用户。
 
 * 你的主题的 `package.json` 必须包含一个值为 `ui` 或者 `syntax` 的 `theme` 关键字，这样 Atom 才能识别并将其作为主题加载。
 
@@ -24,11 +24,11 @@ Atom 支持两种类型的主题：*UI* 和 *Syntax* 。UI 主题给元素设置
 
 让我们一起来创建属于你的第一个主题吧。
 
-首先，按 <kbd>Ctrl+Shift+P</kbd> 并输入 "Generate Syntax Theme" 来生成一个新的主题包。选择 "Generate Syntax Theme" ，然后你将被询问要创建的主题的路径。让我们叫我们的主题为 `motif-syntax` 吧。
+首先，按 <kbd>Cmd+Shift+P</kbd> 并输入 "Generate Syntax Theme" 来生成一个新的主题包。选择 "Generate Syntax Theme" ，然后你将被询问要创建的主题的路径。让我们叫我们的主题为 `motif-syntax` 吧。
 
 > Syntax 主题应该以 *-syntax* 结尾，UI 主题应该以 *-ui* 结尾。
 
-Atom 将打开一个新窗口，显示 motif-syntax 主题，它为我们创建了一套默认的文件夹和文件模版。如果你用 <kbd>Ctrl+,</kbd> 打开 Settings View 然后点击在左侧导航栏上的 "Themes" 标签，你将看到 "Motif" 主题在 "Syntax Theme" 下拉菜单中列出来了。从菜单中选择它来激活改主题，现在当你打开编辑器时，你应该看到你的新的 `motif-syntax` 主题已经应用了。
+Atom 将打开一个新窗口，显示 motif-syntax 主题，它为我们创建了一套默认的文件夹和文件模版。如果你用 <kbd>Cmd+,</kbd> 打开 Settings View 然后点击在左侧导航栏上的 "Themes" 标签，你将看到 "Motif" 主题在 "Syntax Theme" 下拉菜单中列出来了。从菜单中选择它来激活改主题，现在当你打开编辑器时，你应该看到你的新的 `motif-syntax` 主题已经应用了。
 
 打开 `styles/colors.less` 来更改各种已经定义了的颜色变量。比如，把 `@red` 改为 `#f4c2c1` 。
 
@@ -36,7 +36,7 @@ Atom 将打开一个新窗口，显示 motif-syntax 主题，它为我们创建�
 
 举个例子，让我们把 `.gutter` 的 `background-color` 设置为 `@red` 。
 
-按 <kbd>Alt+Ctrl+R</kbd> 重启 Atom 来查看你在 Atom 窗口中所做的更改。非常优雅！
+按 <kbd>Alt+Cmd+Ctrl+L</kbd> 重启 Atom 来查看你在 Atom 窗口中所做的更改。非常优雅！
 
 > 提示：你可以通过打开一个 Dev Mode 的 Atom 窗口，避免重启来查看你所做的更改。在终端运行 `atom --dev .` 来打开一个 Dev Mode 的 Atom 窗口，或者使用 *View > Developer > Open in Dev Mode* 菜单。当你编辑主题时，你所做的更改将会立即被应用！
 
@@ -53,7 +53,7 @@ Atom 将打开一个新窗口，显示 motif-syntax 主题，它为我们创建�
 5. 在主题的 `package.json` 文件中更改主题名字
 6. 用 `-ui` 结尾来给你的主题起名，比如 `super-white-ui`
 7. 运行 `apm link --dev` 来 symlink 你的仓库到 `~/.atom/dev/packages`
-8. 使用 <kbd>Alt+Ctrl+R</kbd> 重启 Atom
+8. 使用 <kbd>Alt+Cmd+Ctrl+L</kbd> 重启 Atom
 9. 通过 Settings View 中的 "Themes" 标签中的 "UI Theme" 下拉菜单启用主题
 10. 更改吧！由于你打开的主题在 Dev Mode 窗口中，更改将在编辑器中立即应用，无需重启。
 
@@ -101,18 +101,18 @@ UI 主题和 Syntax 主题 **必须** 提供一个 `ui-variables.less` 文件 �
 
 ### 实时重载
 
-当你更改主题后按 <kbd>Alt+Ctrl+R</kbd> 重载，这不是很理想。在 Dev Mode 中的 Atom 窗口上，Atom 支持样式的 [实时更新](https://github.com/atom/dev-live-reload) 。
+当你更改主题后按 <kbd>Alt+Cmd+Ctrl+L</kbd> 重载，这不是很理想。在 Dev Mode 中的 Atom 窗口上，Atom 支持样式的 [实时更新](https://github.com/atom/dev-live-reload) 。
 
 要启动一个 Dev Mode 窗口：
 
 * 通过在菜单项中选择 *View > Developer > Open in Dev Mode* 方式在 dev 窗口中打开你的主题目录
 * 或者从终端输入 `atom --dev` 指令启动 Atom
 
-如果你希望在任何时候重载所有样式，你可以使用快捷键 <kbd>Alt+Ctrl+R</kbd> 。
+如果你希望在任何时候重载所有样式，你可以使用快捷键 <kbd>Alt+Cmd+Ctrl+L</kbd> 。
 
 ### 开发者工具
 
-Atom 基于 Chrome 浏览器，它支持 Chrome 的开发者工具。你可以通过选择 *View > Developer > Toggle Developer Tools* 菜单打开它们，或者通过使用 <kbd>Ctrl+Shift+I</kbd> 快捷键。
+Atom 基于 Chrome 浏览器，它支持 Chrome 的开发者工具。你可以通过选择 *View > Developer > Toggle Developer Tools* 菜单打开它们，或者通过使用 <kbd>Alt+Cmd+I</kbd> 快捷键。
 
 开发工具允许你检查元素以及查看它们的 CSS 属性。
 
@@ -124,7 +124,7 @@ Atom 基于 Chrome 浏览器，它支持 Chrome 的开发者工具。你可以�
 
 如果你正在创建一个 UI 主题，你将希望有一个方法可以查看你的主题更改如何影响系统中的所有组件。[Styleguide](https://github.com/atom/styleguide) 是一个渲染了 Atom 支持的所有组件的网页。
 
-要打开 Styleguide，用 <kbd>Ctrl+Shift+P</kbd> 打开指令面板并搜索 "styleguide" ，或者使用快捷键 <kbd>Ctrl+Shift+G</kbd> 。
+要打开 Styleguide，用 <kbd>Cmd+Shift+P</kbd> 打开指令面板并搜索 "styleguide" ，或者使用快捷键 <kbd>Cmd+Ctrl+Shift+G</kbd> 。
 
 ![Style Guide](https://flight-manual.atom.io/hacking-atom/images/styleguide.png)
 
@@ -142,4 +142,4 @@ Atom 基于 Chrome 浏览器，它支持 Chrome 的开发者工具。你可以�
 
 一旦你对你的主题很满意，而且想要分享给其他 Atom 用户，是时候发布它了。:tada:
 
-按照 [Publishing](/linux/chapter3/publishing) 页面上的步骤。虽然实例使用的是 Word Count 包，不过发布主题的工作其实是完全一样的。
+按照 [Publishing](/mac/chapter3/publishing) 页面上的步骤。虽然实例使用的是 Word Count 包，不过发布主题的工作其实是完全一样的。
